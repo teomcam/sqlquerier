@@ -1,6 +1,6 @@
 ﻿Imports System.Data.SqlClient
 Public Class SQLControl
-    Private DBCon As New SqlConnection("Server=10.20.0.98\IR_INTEGRITI;Database=IntegReview__2022_Q3_0;User=readonlyuser;Pwd=readonlyuser#icb2022;")
+    Private DBCon As New SqlConnection("Server=10.20.0.98\IR_INTEGRITI;Database=IntegReview__2022_Q3_0;User=readonlyuser;Pwd=readonlyuserpw;")
     Private DBCmd As SqlCommand
     ' DB DATA
     Public DBDA As SqlDataAdapter
